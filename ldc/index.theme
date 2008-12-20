@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ldc
+Type=X-GNOME-Metatheme
+Comment=ldc theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=ldc
+MetacityTheme=
+IconTheme=OpenWorld

@@ -1,0 +1,55 @@
+#ldc theme 
+
+style "dark" {
+  font = "snap"
+  fg[NORMAL]           = { 0.75, 0.75, 0.68 }
+  fg[PRELIGHT]         = { 0.85, 0.85, 0.78 }
+  fg[ACTIVE]           = { 0.75, 0.75, 0.68 }
+  fg[SELECTED]         = { 0.85, 0.85, 0.78 }
+  fg[INSENSITIVE]      = { 0.48, 0.48, 0.44 }
+  bg[NORMAL]           = { 0.40, 0.40, 0.40 }
+  bg[PRELIGHT]         = { 0.35, 0.35, 0.39 }
+  bg[ACTIVE]           = { 0.25, 0.25, 0.25 }
+  bg[SELECTED]         = { 0.30, 0.30, 0.34 }
+  bg[INSENSITIVE]      = { 0.20, 0.20, 0.20 }
+  base[NORMAL]         = { 0.32, 0.32, 0.32 }
+  base[PRELIGHT]       = { 0.12, 0.12, 0.08 }
+  base[ACTIVE]         = { 0.35, 0.35, 0.30 }
+  base[SELECTED]       = { 0.40, 0.40, 0.30 }
+  base[INSENSITIVE]    = { 0.12, 0.12, 0.08 }
+	engine "xeno" {
+		thin               = true
+		scrollbar_dimple   = true
+		stepper_ends       = true
+		stepper_arrows     = false
+		scrollbar_width    = 10
+		shine              = 1.15
+		shade              = 0.8
+		scrollbar_flush    = false
+		handle_knob        = holes
+		paned_knob         = holes
+		scrollbar_knob     = holes
+		menu_item_shadow   = in
+		popup_arrows       = true
+		flat_windows       = false
+		button_default     = none
+		thickness          = 1
+		label[NORMAL]      = out
+		label[ACTIVE]      = out
+		label[SELECTED]    = out
+		label[INSENSITIVE] = none
+	}	
+}
+
+style "shade" {
+	engine "xeno" {
+		shade              = 0.1
+		shine              = 0.1
+		white              = 1.5
+		thickness          = 1
+	}
+}
+
+class  "*" style "dark"
+widget "*" style "dark"
+class "GtkButton"   style "shade"

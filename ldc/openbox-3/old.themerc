@@ -1,0 +1,77 @@
+menu.title.bg:			flat solid
+menu.title.bg.color:		rgb:8/8/7
+menu.title.text.color: 	grey20
+menu.title.text.justify:		center
+menu.items.bg:			flat solid
+menu.items.bg.color:		rgb:6/6/6
+menu.items.text.color: rgb:d/d/d
+menu.items.disableColor:	rgb:4/4/4
+menu.items.justify:		left
+menu.bullet.position:		right
+menu.active:                            flat solid
+menu.active.bg.color:                 rgb:0/2/3
+menu.active.borderWidth:                1
+menu.active.bg.border.color:                black
+menu.active.text.color:     rgb:d/d/b
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		rgb:9/9/9
+menu.items.active.text.color:	rgb:f/f/f
+
+#window.active.button.hover
+#window.inactive.button.hover
+#window.inactive.button.disabled
+#window.active.button.disabled
+
+#window.active.button.disabled.bg:               parentrelative
+window.active.button.disabled.image.color:     rgb:6/6/6
+window.active.button.*.image.color: #ddddbb
+window.inactive.button.*.image.color: #666666
+
+
+#window.inactive.button.disabled.bg:             parentrelative
+window.inactive.button.disabled.image.color:    rgb:6/6/6
+
+window.active.title.bg:		flat solid
+window.active.title.bg.color:	rgb:8/8/8
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:	rgb:4/4/4
+window.active.label.bg:		flat solid
+window.active.label.bg.color:	rgb:6/6/6
+window.active.label.text.color:	rgb:d/d/b
+window.inactive.label.bg:		flat solid
+window.inactive.label.bg.color:	#444444
+window.inactive.label.text.color: #666666
+window.active.button.unpressed.bg:		flat solid
+window.active.button.unpressed.bg.color:	#888888
+window.active.button.unpressed.imageColor:	#ddddbb
+window.inactive.button.unpressed.bg:		flat solid
+window.inactive.button.unpressed.bg.color:	rgb:4/4/4
+window.inactive.button.unpressed.imageColor:	rgb:6/6/6
+window.active.handle.bg:		flat solid
+window.active.handle.bg.color:	rgb:6/6/6
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	rgb:4/4/4
+window.active.grip.bg:		flat solid
+window.active.grip.bg.color:	rgb:9/9/8
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:	rgb:4/4/4
+window.active.client.color:	rgb:6/6/6
+window.inactive.client.color:	rgb:4/4/4
+window.label.text.justify:			center
+
+*button.pressed:		flat solid
+*button.pressed.bg.color:		rgb:a/a/8c
+
+border.color:			rgb:2/2/2
+
+padding.width:			1
+border.width:			1
+window.handle.width:			2
+*text.color:			grey20
+
+window.active.label.text.font: snap
+window.inactive.label.text.font: snap
+menu.title.text.font: snap
+menu.items.font: snap
+
+
